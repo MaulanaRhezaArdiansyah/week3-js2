@@ -45,4 +45,4 @@ function result(data) {
 //   return data;
 // };
 
-console.log(searchName("an", 3, result));
+console.log(searchName("an", 4, result));

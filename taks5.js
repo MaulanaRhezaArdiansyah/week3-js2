@@ -1,12 +1,3 @@
-// A.  Ubahlah data  tersebut menggunakan
-// spread operator menjadi:
-// 	- name: nama anda
-// - email: email anda
-// - hobby: hobi anda
-
-// B.  Ambilah data “street dan city” tersebut
-// menggunakan destructuring
-
 let data = {
   id: 1,
   name: "Leanne Graham",
@@ -34,7 +25,7 @@ let newData = {
   email: "rhezaardiansyah222@gmail.com",
   hobby: ["Ngoding", "Main bola", "Makan"],
 }; // meng-copy object
-// console.log(newData);
+console.log(newData);
 // console.log(data);
 
 // DESTRUCTURING

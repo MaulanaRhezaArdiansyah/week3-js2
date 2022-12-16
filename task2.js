@@ -25,8 +25,8 @@
 
 // 5. split()
 // memisah string menjadi array
-// const name = "Messi";
-// const nameSplit = name.split("");
+const name = "Messi";
+const nameSplit = name.split("");
 // console.log(nameSplit);
 
 // 6. replace()
@@ -38,7 +38,7 @@
 // menggabung array menjadi string
 // usahakan di dalam join beri petik dua dst
 // let nameJoin = nameSplit.join();
-// let nameJoin = nameSplit.join("");
+let nameJoin = nameSplit.join("");
 // let nameJoin = nameSplit.join(" ");
 // console.log(nameJoin);
 
@@ -49,23 +49,23 @@
 
 // 9. toUpperCase()
 // merubah string variabel menjadi HURUF BESAR
-// const nameUpper = name.toUpperCase();
-// console.log(nameUpper);
+const nameUpper = name.toUpperCase();
+console.log(nameUpper);
 
 // 10. length
 // menghitung panjang dari sebuah array
 
-// const listJodoh = ["Isadora", "Bintang", "Maryam"];
-// for (let i = 0; i < listJodoh.length; i++) {
-//   if (listJodoh[i] == "Isadora") {
-//     console.log("Amazing");
-//   } else {
-//     console.log("Wow");
-//   }
-// }
+const listJodoh = ["Isadora", "Bintang", "Maryam"];
+for (let i = 0; i < listJodoh.length; i++) {
+  if (listJodoh[i] == "Isadora") {
+    console.log("Amazing");
+  } else {
+    console.log("Wow");
+  }
+}
 
 // 11. sort()
 // contoh penggunaan akan kita lihat di soal nomor 4
-let array = ["Amanda", "Angela", "Abi"];
-array.sort();
-console.log(array);
+// let array = ["Amanda", "Angela", "Abi"];
+// array.sort();
+// console.log(array);
