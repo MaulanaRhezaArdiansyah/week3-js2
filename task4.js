@@ -24,7 +24,7 @@ const seleksiNilai = (nilaiAwal, nilaiAkhir, dataArray) => {
       return "Nilai akhir harus lebih besar dari nilai awal!";
     } else if (dataArray[i] > nilaiAwal && dataArray[i] < nilaiAkhir) {
       resultValid.push(dataArray[i]);
-      resultValid.sort((a, b) => a - b);
+      resultValid.sort();
     } else if (dataArray.length == 0 || resultValid.length == 0) {
       resultValid = "Nilai tidak ditemukan!";
     }

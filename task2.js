@@ -66,3 +66,6 @@
 
 // 11. sort()
 // contoh penggunaan akan kita lihat di soal nomor 4
+let array = ["Amanda", "Angela", "Abi"];
+array.sort();
+console.log(array);
