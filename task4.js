@@ -25,14 +25,14 @@ const seleksiNilai = (nilaiAwal, nilaiAkhir, dataArray) => {
     } else if (dataArray[i] > nilaiAwal && dataArray[i] < nilaiAkhir) {
       resultValid.push(dataArray[i]);
       resultValid.sort((a, b) => a - b);
-    } else if (resultValid.length == 0) {
+    } else if (dataArray.length == 0 || resultValid.length == 0) {
       resultValid = "Nilai tidak ditemukan!";
     }
   }
   return resultValid;
 };
 
-console.log(seleksiNilai(10, 30, [25, 21, 15, 16, 12, 26])); // Output : [ 12, 15, 16, 21, 25, 26 ]
-// console.log(seleksiNilai(10, 10, [2, 6, 3, 21, 25, 20]));
-// console.log(seleksiNilai(10, 20, [2, 6, 3, 21]));
-// console.log(seleksiNilai(10, 20, [2, 6, 3, 21, 40, 35]));
+console.log(seleksiNilai(10, 30, [25, 21, 15, 16, 12, 26]));
+console.log(seleksiNilai(10, 10, [2, 6, 3, 21, 25, 20]));
+console.log(seleksiNilai(10, 20, [2, 6, 3, 21]));
+console.log(seleksiNilai(10, 20, [2, 6, 3, 21, 40, 35]));

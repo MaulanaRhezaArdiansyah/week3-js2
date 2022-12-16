@@ -25,6 +25,7 @@ let data = {
 // data.name = "Rheza";
 // console.log(data);
 
+// SPREAD OPERATOR
 let newData = {
   ...data,
   id: 2,
@@ -36,7 +37,8 @@ let newData = {
 // console.log(newData);
 // console.log(data);
 
-const newAddress = ({ street, city } = data.address);
+// DESTRUCTURING
+const { street, city } = data.address;
 // console.log(data.address.street);
-// console.log(street);
-// console.log(city);
+console.log(street);
+console.log(city);

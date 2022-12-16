@@ -37,8 +37,12 @@ const searchName = (inisial, arrayLength, callback) => {
   return callback(arrayNameIncludes);
 };
 
-const result = (data) => {
+function result(data) {
   return data;
-};
+}
+
+// const result = (data) => {
+//   return data;
+// };
 
 console.log(searchName("an", 3, result));
